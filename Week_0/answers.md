@@ -19,7 +19,7 @@
 
 1. **What is a finite group?**: A finite group is a group that has a finite number of elements. In mathematical terms, a group G is a set with a binary operation that satisfies the following properties:
 
-    - **Closure**: For any pair of elements \(a, b \in G\), the result of the operation \(a * b\) is also in \(G\).
+    - **Closure**: For any pair of elements \(a, b /in G\), the result of the operation \(a * b\) is also in \(G\).
     - **Associativity**: For any trio of elements \(a, b, c \in G\), it holds that \((a * b) * c = a * (b * c)\).
     - **Identity element**: There exists an element \(e \in G\) such that for any element \(a \in G\), it holds that \(e * a = a * e = a\).
     - **Inverse element**: For each element \(a \in G\), there exists an element \(b \in G\) such that \(a * b = b * a = e\).
