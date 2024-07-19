@@ -38,10 +38,15 @@ For \(g\) to be a generator, it must have the property that all the powers (or m
 4. **What are finite fields?**: A **finite field** (or Galois field) is a finite set \(F\) with two operations, addition and multiplication, that satisfies the properties of a field. This means that:
 
     1. **Closure**: The addition and multiplication of two elements in \(F\) result in an element in \(F\).
+
     2. **Associativity**: The addition and multiplication are associative.
     3. **Commutativity**: The addition and multiplication are commutative.
+
     4. **Identity element**: There exists a zero element \(0 \in F\) such that \(0 + a = a\) for all \(a \in F\), and there exists a one element \(1 \in F\) such that \(1 \cdot a = a\) for all \(a \in F\).
+
     5. **Additive inverse**: For each element \(a \in F\), there exists an element \(-a \in F\) such that \(a + (-a) = 0\).
+
     6. **Multiplicative inverse**: For each element \(a \in F\) other than zero, there exists an element \(a^{-1} \in F\) such that \(a \cdot a^{-1} = 1\).
+    
     7. **Distributivity**: The multiplication is distributive over the addition; that is, \(a \cdot (b + c) = (a \cdot b) + (a \cdot c)\) for all \(a, b, c \in F\).
 
