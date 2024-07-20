@@ -14,7 +14,22 @@ For example, in modulo 5 arithmetic:
 - $7 \equiv 2 \ (\text{mod} \ 5)$ because $7 - 2 = 5$, which is divisible by 5.
 - $12 \equiv 2 \ (\text{mod} \ 5)$ because $12 - 2 = 10$, which is divisible by 5.
 
-1. **Exploring congruence classes**
+1. **Exploring congruence classes**: A congruence class modulo $n$ is a set of integers that are all congruent to each other modulo $n$. Each integer belongs to one and only one congruence class modulo $n$. The set of all such classes forms a complete system of residues modulo $n$.
+
+   For a given modulus $n$, the congruence class of an integer $a$, denoted by $[a]_n$ or simply $a \mod n$, contains all integers that are congruent to $a$ modulo $n$. Formally, the congruence class of $a$ modulo $n$ is:
+
+   $$
+   [a]_n = \{a + kn \mid k \in \mathbb{Z}\}
+   $$
+
+   where $\mathbb{Z}$ is the set of all integers. For example, with $n = 4$:
+
+   - The congruence class $[0]_4$ includes $\{..., -8, -4, 0, 4, 8, ...\}$.
+   - The congruence class $[1]_4$ includes $\{..., -7, -3, 1, 5, 9, ...\}$.
+   - The congruence class $[2]_4$ includes $\{..., -6, -2, 2, 6, 10, ...\}$.
+   - The congruence class $[3]_4$ includes $\{..., -5, -1, 3, 7, 11, ...\}$.
+
+   These classes partition the set of all integers into distinct, non-overlapping sets, each represented by one of the integers from $0$ to $n-1$.
 
 #### Group Theory
 
