@@ -7,11 +7,11 @@
 
 #### Modular Arithmetic and Congruence
 
-1. **What is modular arithmetic?**: Modular arithmetic is a system of arithmetic for integers, where numbers "wrap around" upon reaching a certain value, known as the modulus. This is akin to the way the hours on a clock reset after reaching 12. In modular arithmetic, the modulus \(n\) determines the range of numbers. The notation \(a \equiv b \ (\text{mod} \ n)\) means that \(a\) and \(b\) leave the same remainder when divided by \(n\). Formally, \(a \equiv b \ (\text{mod} \ n)\) if and only if \(n\) divides \(a - b\).
+1. **What is modular arithmetic?**: Modular arithmetic is a system of arithmetic for integers, where numbers "wrap around" upon reaching a certain value, known as the modulus. This is akin to the way the hours on a clock reset after reaching 12. In modular arithmetic, the modulus \(n\) determines the range of numbers. The notation $a \equiv b \ (\text{mod} \ n)$ means that $a$ and \(b\) leave the same remainder when divided by \(n\). Formally, \(a \equiv b \ (\text{mod} \ n)\) if and only if \(n\) divides \(a - b\).
 
 For example, in modulo 5 arithmetic:
-- $7 \equiv 2 \ (\text{mod} \ 5)$ because \(7 - 2 = 5\), which is divisible by 5.
-- \(12 \equiv 2 \ (\text{mod} \ 5)\) because \(12 - 2 = 10\), which is divisible by 5.
+- $7 \equiv 2 \ (\text{mod} \ 5)$ because $7 - 2 = 5$, which is divisible by 5.
+- $12 \equiv 2 \ (\text{mod} \ 5)$ because $12 - 2 = 10$, which is divisible by 5.
 
 1. **Exploring congruence classes**
 
