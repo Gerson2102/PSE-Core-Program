@@ -2,18 +2,18 @@
 
 #### Fundamentals:
 
-  - **Prime Numbers and Composite Numbers**:
-  - **Greatest Common Divisors (GCD)**
+  1. **Prime Numbers and Composite Numbers**:
+  1. **Greatest Common Divisors (GCD)**
 
 #### Modular Arithmetic and Congruence
 
-  - **What is modular arithmetic?**
-  - **Exploring congruence classes**
+  1. **What is modular arithmetic?**
+  1. **Exploring congruence classes**
 
 #### Group Theory
 
-  - **What is a group structure?**
-  - **What is a group operation?**
+  1. **What is a group structure?**
+  1. **What is a group operation?**
 
 #### Diving Deeper:
 
