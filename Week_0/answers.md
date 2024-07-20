@@ -14,7 +14,7 @@ For example, in modulo 5 arithmetic:
 - $7 \equiv 2 \ (\text{mod} \ 5)$ because $7 - 2 = 5$, which is divisible by 5.
 - $12 \equiv 2 \ (\text{mod} \ 5)$ because $12 - 2 = 10$, which is divisible by 5.
 
-1. **Exploring congruence classes**: A congruence class modulo $n$ is a set of integers that are all congruent to each other modulo $n$. Each integer belongs to one and only one congruence class modulo $n$. The set of all such classes forms a complete system of residues modulo $n$.
+2. **Exploring congruence classes**: A congruence class modulo $n$ is a set of integers that are all congruent to each other modulo $n$. Each integer belongs to one and only one congruence class modulo $n$. The set of all such classes forms a complete system of residues modulo $n$.
 
    For a given modulus $n$, the congruence class of an integer $a$, denoted by $[a]_n$ or simply $a \mod n$, contains all integers that are congruent to $a$ modulo $n$. Formally, the congruence class of $a$ modulo $n$ is:
 
