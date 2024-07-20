@@ -3,7 +3,12 @@
 #### Fundamentals:
 
 1. **Prime Numbers and Composite Numbers**:
-1. **Greatest Common Divisors (GCD)**
+
+   - **Prime Numbers**: A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. In other words, a prime number is only divisible by 1 and the number itself. Examples of prime numbers include 2, 3, 5, 7, and 11.
+
+   - **Composite Numbers**: A composite number is a natural number greater than 1 that has more than two positive divisors. In other words, a composite number can be divided evenly by numbers other than 1 and itself. Examples of composite numbers include 4, 6, 8, 9, and 12.
+
+1. **Greatest Common Divisors (GCD)**: The greatest common divisor (GCD) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers without leaving a remainder. For example, the GCD of 8 and 12 is 4, because 4 is the largest number that divides both 8 and 12 without leaving a remainder. The GCD is also known as the greatest common factor (GCF) or highest common factor (HCF).
 
 #### Modular Arithmetic and Congruence
 
