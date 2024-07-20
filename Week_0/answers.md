@@ -50,9 +50,7 @@ The operation $*$ is central to the structure of the group and must be defined i
 
 3. **What is a generator?**: A **generator** of a cyclic group is the element $g$ that can generate all the elements of the group through its powers or multiples. In a cyclic group $G$, the generator $g$ is such that:
 
-   $$
-   G = \{ g^k \mid k \in \mathbb{Z} \}
-   $$
+   $$G = \{ g^k \mid k \in \mathbb{Z} \}$$
 
 For $g$ to be a generator, it must have the property that all the powers (or multiples) of $g$ cover all the elements of the group.
 
