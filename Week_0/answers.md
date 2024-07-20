@@ -24,7 +24,7 @@ For example, in modulo 5 arithmetic:
 
    2. **Associativity**: For any three elements $a, b, c \in G$, it holds that $(a \cdot b) \cdot c = a \cdot (b \cdot c)$.
 
-   3. **Identity element**: There exists an element $e \in G$ such that for any element $a \in G$, the equation $e \cdot  a = a \cdot  e = a$ holds.
+   3. **Identity element**: There exists an element $e \in G$ such that for any element $a \in G$, the equation $e \cdot a = a \cdot e = a$ holds.
 
    4. **Inverse element**: For each element $a \in G$, there exists an element $b \in G$ such that $a \cdot b = b \cdot a = e$, where $e$ is the identity element.
 
