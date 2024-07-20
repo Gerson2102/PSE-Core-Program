@@ -12,18 +12,17 @@
 
 #### Group Theory
 
-  1. **What is a group structure?**: A **group structure** is a set \(G\) combined with an operation \(*\) that satisfies four fundamental properties known as the group axioms. These properties are:
+1. **What is a group structure?**: A **group structure** is a set \(G\) combined with an operation * that satisfies four fundamental properties known as the group axioms. These properties are:
 
     1. **Closure**: For any two elements \(a, b \in G\), the result of the operation \(a * b\) is also in \(G\).
 
     2. **Associativity**: For any three elements \(a, b, c \in G\), it holds that \((a * b) * c = a * (b * c)\).
 
     3. **Identity element**: There exists an element \(e \in G\) such that for any element \(a \in G\), the equation \(e * a = a * e = a\) holds.
-    
+
     4. **Inverse element**: For each element \(a \in G\), there exists an element \(b \in G\) such that \(a * b = b * a = e\), where \(e\) is the identity element.
 
-
-  1. **What is a group operation?**
+1. **What is a group operation?**
 
 #### Diving Deeper:
 
