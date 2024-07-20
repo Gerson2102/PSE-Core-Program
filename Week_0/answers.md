@@ -18,9 +18,7 @@ For example, in modulo 5 arithmetic:
 
    For a given modulus $n$, the congruence class of an integer $a$, denoted by $[a]_n$ or simply $a \mod n$, contains all integers that are congruent to $a$ modulo $n$. Formally, the congruence class of $a$ modulo $n$ is:
 
-   $$
-   [a]_n = \{a + kn \mid k \in \mathbb{Z}\}
-   $$
+   $$[a]_n = \{a + kn \mid k \in \mathbb{Z}\}$$
 
    where $\mathbb{Z}$ is the set of all integers. For example, with $n = 4$:
 
