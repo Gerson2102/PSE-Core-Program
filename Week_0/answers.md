@@ -7,8 +7,13 @@
 
 #### Modular Arithmetic and Congruence
 
-  1. **What is modular arithmetic?**
-  1. **Exploring congruence classes**
+1. **What is modular arithmetic?**: Modular arithmetic is a system of arithmetic for integers, where numbers "wrap around" upon reaching a certain value, known as the modulus. This is akin to the way the hours on a clock reset after reaching 12. In modular arithmetic, the modulus \(n\) determines the range of numbers. The notation \(a \equiv b \ (\text{mod} \ n)\) means that \(a\) and \(b\) leave the same remainder when divided by \(n\). Formally, \(a \equiv b \ (\text{mod} \ n)\) if and only if \(n\) divides \(a - b\).
+
+For example, in modulo 5 arithmetic:
+- \(7 \equiv 2 \ (\text{mod} \ 5)\) because \(7 - 2 = 5\), which is divisible by 5.
+- \(12 \equiv 2 \ (\text{mod} \ 5)\) because \(12 - 2 = 10\), which is divisible by 5.
+
+1. **Exploring congruence classes**
 
 #### Group Theory
 
@@ -22,7 +27,14 @@
 
     4. **Inverse element**: For each element \(a \in G\), there exists an element \(b \in G\) such that \(a * b = b * a = e\), where \(e\) is the identity element.
 
-1. **What is a group operation?**
+1. **What is a group operation?**: A **group operation** is a binary operation \(*\) defined on a set \(G\) that combines any two elements \(a\) and \(b\) to form another element \(c\) (i.e., \(a * b = c\)) within the same set. This operation must satisfy the following properties:
+
+    1. **Closure**: For any two elements \(a, b \in G\), the result of the operation \(a * b\) is also in \(G\).
+    2. **Associativity**: For any three elements \(a, b, c \in G\), it holds that \((a * b) * c = a * (b * c)\).
+    3. **Identity element**: There exists an element \(e \in G\) such that for any element \(a \in G\), the equation \(e * a = a * e = a\) holds.
+    4. **Inverse element**: For each element \(a \in G\), there exists an element \(b \in G\) such that \(a * b = b * a = e\), where \(e\) is the identity element.
+
+The operation \(*\) is central to the structure of the group and must be defined in such a way that these properties are satisfied.
 
 #### Diving Deeper:
 
