@@ -1,0 +1,7 @@
+# Ignoring compilation files
+helloCircom_cpp/
+helloCircom_js/
+
+# Ignoring files generated after compilation
+*.r1cs
+*.sym
