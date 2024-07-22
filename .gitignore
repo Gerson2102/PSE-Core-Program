@@ -5,3 +5,8 @@ helloCircom_js/
 # Ignoring files generated after compilation
 *.r1cs
 *.sym
+
+# Ignoring ceremony files
+*.zkey
+*.ptau
+*.json
