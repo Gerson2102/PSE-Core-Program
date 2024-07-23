@@ -1,4 +1,4 @@
-### Circom programs
+#### Circom programs
 
 1. Proving a multiplication of two numbers: 
 
@@ -48,6 +48,12 @@
     component main = Multiplier_V2();
     ```
 
-### Answers at the end of the module
+#### Symmetric vs Asymmetric Encryption (AES, RSA) Questions
+
+   1. What is the primary difference between symmetric and asymmetric encryption?
+   2. Can you briefly explain how AES (Advanced Encryption Standard) works?
+   3. What makes RSA a popular choice for public-key encryption?
+
+#### Answers at the end of the module
 
 1. **Write a circuit to prove input to hash:** hashOutput = 4267533774488295900887461483015112262021273608761099826938271132511348470966
