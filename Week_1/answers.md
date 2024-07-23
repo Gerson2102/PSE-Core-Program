@@ -47,3 +47,7 @@
 
     component main = Multiplier_V2();
     ```
+
+### Answers at the end of the module
+
+1. **Write a circuit to prove input to hash:** hashOutput = 4267533774488295900887461483015112262021273608761099826938271132511348470966
