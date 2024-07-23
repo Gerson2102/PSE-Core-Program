@@ -50,8 +50,10 @@
 
 ### Symmetric vs Asymmetric Encryption (AES, RSA) Questions
 
-   1. What is the primary difference between symmetric and asymmetric encryption?
-   2. Can you briefly explain how AES (Advanced Encryption Standard) works?
+   1. **What is the primary difference between symmetric and asymmetric encryption?**: 
+
+   2. **Can you briefly explain how AES (Advanced Encryption Standard) works?:** The Advanced Encryption Standard take plaintext as an input. That plaintext is put it into a grid of 4x4. We apply an XOR operation to this plaintext, a substitution and permutation. These process is a round. We can have 10, 12, 14 rounds depending on the size of the plaintext. (128, 192, 256)
+
    3. What makes RSA a popular choice for public-key encryption?
 
 ### Answers at the end of the module
