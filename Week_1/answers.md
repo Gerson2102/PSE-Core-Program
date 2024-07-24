@@ -56,6 +56,12 @@
 
    3. **What makes RSA a popular choice for public-key encryption?**: The ability to exchange encrypted messages during communication without worrying if somebody can intercept the interaction.
 
+### Hash Functions, Merkle Trees Questions
+
+   1. **What is a hash function and what are its primary uses in cryptography?**: A hash function is a function that takes an input and returns a fixed-size string of bytes.
+   2. **How does the SHA-256 hashing algorithm function, in simple terms?**: The SHA-256 hashing method takes an input and is divided in a series of mathematical operations. It divides the input and applies 64 rounds of operations.
+   3. **What is the Poseidon hash function and why is it particularly useful in ZKPs?**
+
 ### Answers at the end of the module
 
 1. **Write a circuit to prove input to hash:** hashOutput = 4267533774488295900887461483015112262021273608761099826938271132511348470966
