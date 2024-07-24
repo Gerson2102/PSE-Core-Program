@@ -64,6 +64,12 @@
 
    3. **What is the Poseidon hash function and why is it particularly useful in ZKPs?**: Poseidon is a cryptographic hash function specifically designed to be efficient in zero-knowledge proofs (ZKPs). Is particularly useful in ZKPs because is much faster adn cheaper than SHA-256. When SHA-256 was implemented in Zcash it took one minute for proofs.
 
+   4. **Can you describe the structure of a Merkle tree?**: A Merkle Tree is a binary tree, but with hashes. We have leafs that are hashes. And the parents of this hashes, are the 2 leafs hashes concatenated and we apply a hash to this concatenation. Until having a hash root that represents the whole data in a tree.
+
+   5. **How are Merkle trees used within the blockchain context?**: In Mining. Miners need to repeatedly hash data to produce an output that matches certain conditions to mine a valid block. The hash is saved in the block header, and every time that we are going to add a new block in the chain, we hash all the transactions list verify if the hash in the header of the block, is correct. And Verification, light nodes dont require a lot of resources. So we can give them a Merkle proof that a transaction is in a specific block. And then it can calculate different hashes until confirms if the Merkle proof is the same as the block header of the block. If it does, it’s proof that the transaction was included in the block.
+
+   6. **Why are Merkle trees useful for efficient and secure verification of large data structures?**: Because the root of a Merkle Tree is a hash that represents the whole data inside of it. Which it means that we just need to compare roots of trees to verify the integrity of the data.
+
 
 ### Answers at the end of the module
 
