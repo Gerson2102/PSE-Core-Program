@@ -60,7 +60,7 @@
 
    1. **What is a hash function and what are its primary uses in cryptography?**: A hash function is a function that takes an input and returns a fixed-size string of bytes.
    2. **How does the SHA-256 hashing algorithm function, in simple terms?**: The SHA-256 hashing method takes an input and is divided in a series of mathematical operations. It divides the input and applies 64 rounds of operations.
-   3. **What is the Poseidon hash function and why is it particularly useful in ZKPs?**
+   3. **What is the Poseidon hash function and why is it particularly useful in ZKPs?**: Poseidon is a cryptographic hash function specifically designed to be efficient in zero-knowledge proofs (ZKPs). Is particularly useful in ZKPs because is much faster adn cheaper than SHA-256. When SHA-256 was implemented in Zcash it took one minute for proofs.
 
 ### Answers at the end of the module
 
