@@ -71,6 +71,13 @@
    6. **Why are Merkle trees useful for efficient and secure verification of large data structures?**: Because the root of a Merkle Tree is a hash that represents the whole data inside of it. Which it means that we just need to compare roots of trees to verify the integrity of the data.
 
 
+### Digital Signatures (Schnorr) Questions
+
+   1. **Can you describe what digital signatures are and why they are essential in digital communications?**: Digital signatures are a cryptographic mechanism that allows a person or entity to prove the authenticity and integrity of a digital message or document. They are essential for digital communications because we can verify that a message was sent by the person we expect and the integrity of it.
+
+   2. **Explain the workings of the Digital Signature Algorithm (DSA)**:
+
+
 ### Answers at the end of the module
 
 1. **Write a circuit to prove input to hash:** hashOutput = 4267533774488295900887461483015112262021273608761099826938271132511348470966
