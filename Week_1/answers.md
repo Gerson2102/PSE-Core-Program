@@ -78,6 +78,19 @@
    2. **Explain the workings of the Digital Signature Algorithm (DSA)**: DSA, like its name, is just a Signature Algorithm. Is an asymmetric encryption algorithm. This algorithm can only be used for Signatures, simply creates and validates signatures. No encryption, no key exchange. DSA simply has two operations **Signature Generation** and **Signature Verification**.
 
 
+### DLP-based Public-Key Cryptography (DLP, DH, Elgamal) Questions
+
+   1. **What is the Discrete Logarithm Problem (DLP)?**: It is a fundamental mathematical problem in public key cryptography. Where de have to find the exponent of x in the next formula: $g^x \equiv y \ (\text{mod} \ p)$. Finding x is computationally difficult if the parameters are appropriately chosen. This difficulty is the basis of the security of many cryptographic systems.
+
+   2. **How does the Diffie-Hellman protocol work?**: 
+   
+   3. **What is the main idea behind ElGamal encryption?**:
+
+   4. **Can you name a drawback of using DLP-based systems?**:
+
+
+
+
 ### Answers at the end of the module
 
 1. **Write a circuit to prove input to hash:** hashOutput = 4267533774488295900887461483015112262021273608761099826938271132511348470966
