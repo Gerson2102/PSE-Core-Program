@@ -75,7 +75,7 @@
 
    1. **Can you describe what digital signatures are and why they are essential in digital communications?**: Digital signatures are a cryptographic mechanism that allows a person or entity to prove the authenticity and integrity of a digital message or document. They are essential for digital communications because we can verify that a message was sent by the person we expect and the integrity of it.
 
-   2. **Explain the workings of the Digital Signature Algorithm (DSA)**:
+   2. **Explain the workings of the Digital Signature Algorithm (DSA)**: DSA, like its name, is just a Signature Algorithm. Is an asymmetric encryption algorithm. This algorithm can only be used for Signatures, simply creates and validates signatures. No encryption, no key exchange. DSA simply has two operations **Signature Generation** and **Signature Verification**.
 
 
 ### Answers at the end of the module
