@@ -82,11 +82,11 @@
 
    1. **What is the Discrete Logarithm Problem (DLP)?**: It is a fundamental mathematical problem in public key cryptography. Where de have to find the exponent of x in the next formula: $g^x \equiv y \ (\text{mod} \ p)$. Finding x is computationally difficult if the parameters are appropriately chosen. This difficulty is the basis of the security of many cryptographic systems.
 
-   2. **How does the Diffie-Hellman protocol work?**: 
+   2. **How does the Diffie-Hellman protocol work?**: We have two persons, Alice and Bob, and they have a private variable or key. There is a public media where they can get some variables, g and n. First we combine a with g and b with g. We switch them, so now Alice has **bg** and Bob **ag**. Once we switched them, we add the private variable for each case. For Alice **abg**, for Bob **abg**, the important thing here, is that we are creating a private and secret key that is created based on public and private things that we cant reverse.
    
-   3. **What is the main idea behind ElGamal encryption?**:
+   3. **What is the main idea behind ElGamal encryption?**: The main idea behind ElGamal encryption is to use the properties of exponentiation in a cyclic group to transform a plaintext message into a ciphertext, which can only be decrypted by someone who knows the corresponding private key. Here are the key steps involved
 
-   4. **Can you name a drawback of using DLP-based systems?**:
+   4. **Can you name a drawback of using DLP-based systems?**: One significant drawback of using systems based on the Discrete Logarithm Problem (DLP) is the computational complexity and resource intensity required to perform key generation, encryption, and decryption, especially as the key sizes increase.
 
 
 
