@@ -9,3 +9,8 @@ Designed for programmers with limited cryptography knowledge, this self-learning
 # Curriculum
 
 Repository: https://github.com/privacy-scaling-explorations/core-program
+
+
+## Connect with me
+
+X account: https://x.com/Glv_exe02
