@@ -15,3 +15,4 @@ Repository: https://github.com/privacy-scaling-explorations/core-program
 
 X account: https://x.com/Glv_exe02
 LinkedIn: https://www.linkedin.com/in/gerson-lv/
+Telegram: @Glv_rar
