@@ -12,5 +12,4 @@ Repository: https://github.com/privacy-scaling-explorations/core-program
 
 
 ## Connect with me
-LinkedIn: https://www.linkedin.com/in/gerson-lv/
 X (Twitter): https://x.com/Glv_exe02
